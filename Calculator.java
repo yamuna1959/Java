@@ -34,6 +34,11 @@ class Calculator extends Frame implements ActionListener
         b4.setBounds(230,250,50,20);
         b5.setBounds(290,250,50,20);
 
+        b1.setBackground(Color.red);       
+        b2.setBackground(Color.green);    
+        b3.setBackground(Color.red);    
+        b4.setBackground(Color.green);    
+
         f1.add(l1);
         f1.add(l2);
         f1.add(l3);
@@ -55,6 +60,11 @@ class Calculator extends Frame implements ActionListener
         f1.setLayout(null);
         f1.setVisible(true);
         f1.setSize(500,500);
+
+        l1.setForeground(Color.red);
+        l2.setForeground(Color.red);
+        l3.setForeground(Color.red);
+        f1.setBackground(Color.pink);
     }
     public void actionPerformed(ActionEvent e)
     {
